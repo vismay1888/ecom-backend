@@ -7,7 +7,7 @@ const morgan =require('morgan');
 const bcrypt =require('bcryptjs');
 const jwt =require('jsonwebtoken');
 const {Product}=require('./model/product');
-const {Cart}=require('./model/cart');
+const {Cart}=require('./model/Cart');
 
 //middelware
 app.use(express.json());
